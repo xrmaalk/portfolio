@@ -18,8 +18,8 @@ export default function App() {
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <NavBar />
           <Hero />
-          <About />
         </div>
+        <About />
         <Experience />
         <Tech />
         <Works />
