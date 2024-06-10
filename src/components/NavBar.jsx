@@ -21,9 +21,9 @@ const NavBar = () => {
               window.scrollTo(0, 0)
             }}>
             <img className="w-22 h-20 object-contain" src={logo} alt="logo" />
-            <p className="text-amber-100 text-[35px] font-bold cursor-pointer ">
-              MAALKUM FRATER{" "}
-              <span className="text-amber-200 text-[20px] font-bold cursor-pointer sm:block hidden">
+            <p className="text-amber-100 text-[25px] font-bold cursor-pointer">
+              MAALKUM Frater
+              <span className="text-amber-200 text-[25px] font-bold cursor-pointer sm:block hidden">
                 | Developer Portfolio
               </span>
             </p>
@@ -51,14 +51,17 @@ const NavBar = () => {
               className={`${
                 !toggle ? "hidden" : "flex"
               } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
-              <ul className="list-none flex sm:hidden flex-row gap-10">
+              <ul className="list-none flex flex-col gap-4">
                 {navLinks.map((link) => (
                   <li
                     key={link.id}
                     className={`${
                       active === link.title ? "text-white" : "text-secondary"
-                    } hover:text-white text-[20px] font-medium cursor-pointer`}
-                    onClick={() => setActive(link.title)}>
+                    }font-poppins text-[16px] font-medium cursor-pointer`}
+                    onClick={() => {
+                      setToggle(!toggle)
+                      setActive(link.title)
+                    }}>
                     <a href={`#${link.id}`}>{link.title}</a>
                   </li>
                 ))}
