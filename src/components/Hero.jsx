@@ -18,8 +18,8 @@ const Hero = () => {
             <span className="text-[#915eff]">Maalkum</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develope 3D visuals, native applications, user interfaces, and web
-            applications.
+            I am an intermediate Software Developer. <br />I develope 3D models,
+            visuals, user interfaces, web and native applications.
           </p>
         </div>
       </div>

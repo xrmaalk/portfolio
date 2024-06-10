@@ -22,7 +22,7 @@ const NavBar = () => {
             }}>
             <img className="w-22 h-20 object-contain" src={logo} alt="logo" />
             <p className="text-amber-100 text-[25px] font-bold cursor-pointer">
-              MAALKUM Frater
+              Maalkum Frater
               <span className="text-amber-200 text-[25px] font-bold cursor-pointer sm:block hidden">
                 | Developer Portfolio
               </span>
