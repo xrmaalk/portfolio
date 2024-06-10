@@ -24,7 +24,7 @@ const NavBar = () => {
             <p className="text-amber-100 text-[35px] font-bold cursor-pointer ">
               MAALKUM FRATER{" "}
               <span className="text-amber-200 text-[20px] font-bold cursor-pointer sm:block hidden">
-                | Developer Portfoli
+                | Developer Portfolio
               </span>
             </p>
           </Link>
