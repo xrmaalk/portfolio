@@ -113,6 +113,26 @@ const technologies = [
     icon: docker,
   },
 ]
+const textBlocks = [
+  "This section walks you through the rich history behind Maalkum, the Software Developer's journey...",
+  "He started programming in the early 90's with Java.",
+  "In 2010, he began learning PHP, later moving on to PYTHON.",
+  "Back then, He sharped his skills by providing customize business websites via wordpress.",
+  "After landing a role as a Teritory Manager, he took an hiatus from programming, focusing on a career as a Sales Professional.",
+  " Maalkum would often say....",
+  '"My passion is in making unique experiences for users and clients alike."',
+  "It is within this spirit that he stumbbled came across a social media challenge....",
+  "the 100 Day of Code Challenege....",
+  "....late August 2020.",
+  "While working fulltime as a Senior Solutions Sales Executive and handling the streamline of a promotional item he developed, Maalkum was able to complete the 100 days of code Challenge.",
+  "He completed the challenege using Python which at the time he recalls:",
+  "the move away from the Java syntax was a nice change.",
+  "Fast-forward to May 2023, Maalkum found himself back in the job market. His employer at that time made the business decision to departure from the Canadian Auction Market.",
+  "When one door closes another surely opens....",
+  "Maalkum was presented with the opprotunity to get formal training into Sotware Development through InceptionU.",
+  "He pounced at the opprotunity!",
+  "Which leads us to why you've stopped by....( the story's only beginning....continue below! )",
+]
 
 const experiences = [
   {
@@ -262,4 +282,11 @@ const projects = [
   },
 ]
 
-export { services, technologies, experiences, testimonials, projects }
+export {
+  services,
+  technologies,
+  textBlocks,
+  experiences,
+  testimonials,
+  projects,
+}
