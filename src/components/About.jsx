@@ -38,8 +38,6 @@ const About = () => {
             Explore Projects&apos; or submit a contact form to get in touch.
           </b>
         </h1>
-        <br />
-        <h2>Have a Blessed Day and Enjoy!</h2>
       </motion.p>
       <div className="mt-20 flex-wrap gap-10 flex justify-evenly px-5">
         {services.map((service, index) => (
