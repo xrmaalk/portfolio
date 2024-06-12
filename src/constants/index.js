@@ -152,7 +152,7 @@ const experiences = [
     ],
   },
   {
-    title: "Fullstack Developer",
+    title: "Full Stack Developer",
     company_name: "InceptionU",
     icon: inceptionU,
     iconBg: "#000",
@@ -180,7 +180,7 @@ const experiences = [
 
   {
     title: "Software Developer",
-    company_name: "MAALTECH - Contractor",
+    company_name: "MAALTECH - Freelance",
     icon: maaltech,
     iconBg: "#000",
     date: "March 2024 - Present",

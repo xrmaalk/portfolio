@@ -1,11 +1,17 @@
-import React from "react"
+import React, { useState } from "react"
 import ReactCardFlip from "react-card-flip"
 import { Tilt } from "react-tilt"
 import { motion } from "framer-motion"
 import { fadeIn } from "../utils/motion"
 import { projects } from "../constants"
+import { FlipCard } from "./FlipCard"
 
 const ServiceCard = ({ index, title, icon }) => {
+  const [isFlipped, setIsFlipped] = useState(false)
+  const handleClick = (e) => {
+    e.preventDefault()
+    setIsFlipped((preState) => !preState)
+  }
   return (
     <Tilt className="xs:w-[250px] w-full ">
       <motion.div
@@ -19,16 +25,18 @@ const ServiceCard = ({ index, title, icon }) => {
           }}
           className="bg-tertiary rounded-[20px], py-5 min-h-[280px] flex flex-col items-center justify-around w-full rounded-2xl">
           <img src={icon} className="w-16 h-16 object-contain " />
-          <h3 className="text-white text-[20px] font-bold text-center">
-            {title}
-          </h3>
+
+          <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
+            <h3 className="text-white text-[20px] font-bold text-center">
+              <button onClick={handleClick}>{title}</button>
+            </h3>
+
+            <h3 className="text-white text-[20px] font-bold text-center">
+              <button onClick={handleClick}>Clicked</button>
+            </h3>
+          </ReactCardFlip>
         </div>
       </motion.div>
-      <ReactCardFlip>
-        <div className="bg-red-400">
-          <h1>Projects</h1>
-        </div>
-      </ReactCardFlip>
     </Tilt>
   )
 }
