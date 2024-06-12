@@ -15,16 +15,15 @@ import {
   git,
   figma,
   docker,
+  xrmedia,
+  inceptionU,
+  pendolu,
+  maaltech,
   carrent,
   jobit,
   tripguide,
   threejs,
 } from "../assets"
-
-import xrmedia from "../assets/company/xrmedia.png"
-import inceptionU from "../assets/company/inceptionU.png"
-import pendolu from "../assets/company/pendolu.png"
-import maaltech from "../assets/company/logo.png"
 
 export const navLinks = [
   {
@@ -300,10 +299,6 @@ const projects = [
 ]
 
 export {
-  xrmedia,
-  inceptionU,
-  pendolu,
-  maaltech,
   services,
   technologies,
   textBlocks,

@@ -2,8 +2,8 @@ import React from "react"
 import ReactCardFlip from "react-card-flip"
 import { Tilt } from "react-tilt"
 import { motion } from "framer-motion"
-import { fadeIn, textVariant } from "../utils/motion"
-import { services } from "../constants"
+import { fadeIn } from "../utils/motion"
+import { projects } from "../constants"
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -24,6 +24,11 @@ const ServiceCard = ({ index, title, icon }) => {
           </h3>
         </div>
       </motion.div>
+      <ReactCardFlip>
+        <div className="bg-red-400">
+          <h1>Projects</h1>
+        </div>
+      </ReactCardFlip>
     </Tilt>
   )
 }
