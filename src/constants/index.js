@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Code Reviews",
     icon: creator,
   },
 ]
@@ -240,7 +240,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/xrmaalk/studymate_v3",
+    source_code_link: "https://maaltech.pro",
   },
   {
     name: "AI Promptopia",
@@ -283,6 +283,18 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/xrmaalk/eh_traveller",
+  },
+  {
+    name: "OrganicEmperor.com",
+    description: "An Ecommerce platform for unisex beauty cosmetics.",
+    tags: [
+      {
+        name: "wordpress",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://organicemperor.com",
   },
 ]
 
