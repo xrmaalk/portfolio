@@ -15,15 +15,16 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
 } from "../assets"
+
+import xrmedia from "../assets/company/xrmedia.png"
+import inceptionU from "../assets/company/inceptionU.png"
+import pendolu from "../assets/company/pendolu.png"
+import maaltech from "../assets/company/logo.png"
 
 export const navLinks = [
   {
@@ -142,8 +143,8 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "XR Media - Freelance",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: xrmedia,
+    iconBg: "#000",
     date: "June 2009 - Jan 2015",
     points: [
       "Developing and maintaining web applications using PHP, HTML and CSS.",
@@ -154,8 +155,8 @@ const experiences = [
   {
     title: "Fullstack Developer",
     company_name: "InceptionU",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: inceptionU,
+    iconBg: "#000",
     date: "Feb 2024 - April 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -167,8 +168,8 @@ const experiences = [
   {
     title: "React Native Developer",
     company_name: "Pendulo Inc",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: pendolu,
+    iconBg: "#450758",
     date: "April 2024 - July 2024",
     points: [
       "Developing and maintaining IOS and Android applications using React-Native expo.",
@@ -181,8 +182,8 @@ const experiences = [
   {
     title: "Software Developer",
     company_name: "MAALTECH - Contractor",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    icon: maaltech,
+    iconBg: "#000",
     date: "March 2024 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -299,6 +300,10 @@ const projects = [
 ]
 
 export {
+  xrmedia,
+  inceptionU,
+  pendolu,
+  maaltech,
   services,
   technologies,
   textBlocks,
