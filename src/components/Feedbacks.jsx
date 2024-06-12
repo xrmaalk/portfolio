@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react"
+import { SectionWrapper } from "../hoc/SectionWrapper"
 
 const Feedbacks = () => {
-  return (
-    <div>Feedbacks</div>
-  )
+  return <div>Feedbacks</div>
 }
 
-export default Feedbacks
+export default SectionWrapper(Feedbacks)

@@ -29,7 +29,9 @@ const About = () => {
         {textBlocks[currentIndex]}
         <br />
         <br />
-        <button onClick={handleNextClick}>Click to continue Story....</button>
+        <button className="text-slate-100" onClick={handleNextClick}>
+          Click to continue Story.... 👉
+        </button>
 
         <br />
         <br />

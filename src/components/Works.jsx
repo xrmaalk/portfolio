@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react"
+import { SectionWrapper } from "../hoc/SectionWrapper"
 
 const Works = () => {
-  return (
-    <div>Works</div>
-  )
+  return <div>Works</div>
 }
 
-export default Works
+export default SectionWrapper(Works)
