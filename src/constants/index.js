@@ -225,6 +225,7 @@ const projects = [
     name: "Studymate",
     description:
       "Web-based platform that allows users learn and practice web development concepts.",
+    icon: web,
     tags: [
       {
         name: "js",
@@ -246,6 +247,7 @@ const projects = [
     name: "AI Promptopia",
     description:
       "Web application that enables users to share AI prompts and search other users prompt.",
+    icon: web,
     tags: [
       {
         name: "react",
@@ -267,6 +269,7 @@ const projects = [
     name: "Eh - Traveller",
     description:
       "A itenerary web application which allows travellers to immmerse in Calgary's, providing recommendations to cultrual attractions and historic sites ",
+    icon: web,
     tags: [
       {
         name: "react",
@@ -287,6 +290,7 @@ const projects = [
   {
     name: "OrganicEmperor.com",
     description: "An Ecommerce platform for unisex beauty cosmetics.",
+    icon: web,
     tags: [
       {
         name: "wordpress",

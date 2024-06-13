@@ -6,7 +6,10 @@ import { fadeIn } from "../utils/motion"
 import { projects } from "../constants"
 import { FlipCard } from "./FlipCard"
 
-const ServiceCard = ({ index, title, icon, onClick }) => {
+const ProjectCard = ({ index, name, icon, onClick }) => {
+  console.log("1....Check Prop Value...name:...", name)
+  console.log("2....Check Prop Value...index:...", index)
+  console.log("3....Check Prop Value...icon:...", icon)
   return (
     <Tilt className="xs:w-[250px] w-full ">
       <motion.div
@@ -18,12 +21,12 @@ const ServiceCard = ({ index, title, icon, onClick }) => {
             scale: 1,
             speed: 450,
           }}
-          className="bg-tertiary rounded-[20px], py-5 min-h-[280px] flex flex-col items-center justify-around w-full rounded-2xl"
-          onClick={onClick}>
+          onClick={onClick}
+          className="bg-tertiary rounded-[20px], py-5 min-h-[280px] flex flex-col items-center justify-around w-full rounded-2xl">
           <img src={icon} className="w-16 h-16 object-contain " />
 
           <h3 className="text-white text-[20px] font-bold text-center">
-            {title}
+            {name}
           </h3>
         </div>
       </motion.div>
@@ -31,4 +34,4 @@ const ServiceCard = ({ index, title, icon, onClick }) => {
   )
 }
 
-export { ServiceCard }
+export { ProjectCard }
