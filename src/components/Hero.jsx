@@ -6,7 +6,7 @@ import { repeat } from "maath/misc"
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-full h-screen mx-auto xs:mt-[1.5rem] ">
       <div
         className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
@@ -17,10 +17,10 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-[#45B440]`}>
             Greetings and Welcome,
             <br />
-            <span className="text-[#915eff]">I am Maalkum</span>
+            <span className="blue-text-gradient">I am Maalkum</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am an intermediate Software Developer. <br />I develop 3D models,
+          <p className={`${styles.heroSubText} mt-2 green-text-gradient`}>
+            an intermediate Software Developer. <br />I develop 3D models,
             visuals, unique user experiences, web and native applications.
           </p>
         </div>

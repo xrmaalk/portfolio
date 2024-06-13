@@ -255,7 +255,7 @@ const textBlocks = [
   "He started programming in the early 2000's with Java.",
   "In 2010, he began learning PHP, later moving on to PYTHON.",
   "Back then, He sharped his skills by providing customize business websites via wordpress.",
-  "After landing a role as a Teritory Manager, he took an hiatus from programming, focusing on a career as a Sales Professional.",
+  "After landing a role as a Territory Manager, he took an hiatus from programming, focusing on a career as a Sales Professional.",
   " Maalkum would often say....",
   '"My passion is in making unique experiences for users and clients alike."',
   "It is within this spirit that he stumbbled came across a social media challenge....",
