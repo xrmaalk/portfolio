@@ -16,7 +16,8 @@ const About = () => {
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>INTRODUCING</p>
         <h2 className={styles.sectionHeadText}>
-          The Story&nbsp;:&nbsp;Maalkum Frater
+          The Ballad of &nbsp;
+          <span className="text-[#45B440]">Maalkum Frater</span>
         </h2>
       </motion.div>
       <motion.p
