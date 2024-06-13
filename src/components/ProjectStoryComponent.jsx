@@ -1,8 +1,8 @@
-import { textBlocks } from "../constants"
+import { projectIntro } from "../constants"
 import { useRef } from "react"
 import TypeWriterEffect from "react-typewriter-effect"
 
-export default function StoryComponent() {
+export default function ProjectStoryComponent() {
   const myStoryRef = useRef(null)
 
   return (
@@ -10,13 +10,14 @@ export default function StoryComponent() {
       <TypeWriterEffect
         textStyle={{
           fontFamily: "Red Hat Display",
-          color: "#44d45d",
+          color: "#43d44A",
+          fontFace: "extraBold",
         }}
         startDelay={2000}
-        cursorColor="#44d45d"
+        cursorColor="#42d44A"
         scrollArea={myStoryRef.current}
         multiTextLoop={true}
-        multiText={textBlocks}
+        multiText={projectIntro}
         multiTextDelay={2000}
         typeSpeed={35}
       />

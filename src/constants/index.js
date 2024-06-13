@@ -105,7 +105,7 @@ const projects = [
     source_code_link: "https://github.com/xrmaalk/ai_promptopia",
   },
   {
-    name: "Eh - Traveller",
+    name: "EH - Traveller",
     description:
       "A itenerary web application which allows travellers to immmerse in Calgary's, providing recommendations to cultrual attractions and historic sites ",
     icon: web,
@@ -254,25 +254,36 @@ const textBlocks = [
   "This section walks you through the rich history behind Maalkum, the Software Developer's journey...",
   "He started programming in the early 2000's with Java.",
   "In 2010, he began learning PHP, later moving on to PYTHON.",
-  "Back then, He sharped his skills by providing customize business websites via wordpress.",
-  "After landing a role as a Territory Manager, he took an hiatus from programming, focusing on a career as a Sales Professional.",
+  "Back then, He sharped his skills by providing customize business websites utilizing the wordpress framework.",
+  "After landing a role as a Territory Manager, he took an hiatus from web development, focusing on a career as a Sales Professional.",
   " Maalkum would often say....",
   '"My passion is in making unique experiences for users and clients alike."',
-  "It is within this spirit that he stumbbled came across a social media challenge....",
+  "Tis within this spirit that he stumbbled came across a social media challenge....",
   "the 100 Day of Code Challenege....",
   "....late August 2020.",
   "While working fulltime as a Senior Solutions Sales Executive and handling the streamline of a promotional item he developed, Maalkum was able to complete the 100 days of code Challenge.",
-  "He's been consistently coding ever since!",
   "He completed the challenege using Python which at the time he recalls:",
   '"the move away from the Java syntax was a nice change."',
   "A syntax he would come to appreciate as he develed deeper into other coding languages.",
+  "Maalkum has been consistently coding ever since!",
+
   "Fast-forward to April 2023, Maalkum found himself lost in the job market when his employer at the time made the business decision to departure from the Canadian Auction Market.",
   "When one door closes another surely opens....",
-  "Maalkum was presented with the opprotunity to get formal training into Sotware Development through InceptionU.",
+  "Maalkum was presented with the opprotunity to get formal training into Full Stack Development through InceptionU.",
   "He pounced at the opprotunity!",
-  "Which leads us to why you've stopped by....",
-  "( the story's only beginning....continue below! )",
-  "Have a Blessed Day and Enjoy!",
+  "Being a learner at InceptionU enstilled much beyond Software Development.......",
+  "The soft skills Maalkum adapted through his career transitional journey further fuels his growth.....",
+  "Now this leads us to why you've stopped by today....",
+  "( the Ballad of Maalkum is just getting started....continue on below...! )",
+  "Congratulations.....You not only visited us today, you've reached the end of My introduction 👍",
+  "Thank you! Have a Blessed Day and Enjoy!! 🦾🤠✌️",
+]
+
+const projectIntro = [
+  "You've reached the heart of my portfolio.",
+  "Here you can discover recent projects I have completed.",
+  "The following projects shall demonstrate the works I have contributed to over the years.",
+  "Be sure to return quarterly as I am constantly adding new skills and wrapping up new porjects!",
 ]
 
 const testimonials = [
@@ -309,4 +320,5 @@ export {
   experiences,
   testimonials,
   projects,
+  projectIntro,
 }
