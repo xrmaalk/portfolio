@@ -22,7 +22,9 @@ const ServiceCard = ({ index, title, icon, onClick }) => {
           onClick={onClick}>
           <img src={icon} className="w-16 h-16 object-contain" />
 
-          <h2 className="z-2 text-red-200 text-2xl font-bold text-center">
+          <h2
+            className="z-2 text-red-200 text-2xl font-bold text-center"
+            style={{ color: "white" }}>
             {title}
           </h2>
         </div>

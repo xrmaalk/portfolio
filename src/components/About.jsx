@@ -23,7 +23,7 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 blue-text-gradient
+        className="mt-4
          text-[30px] max-w-4xl leading-[30px] flex-1 items-center justify-center ">
         <span className="text-4xl">
           <StoryComponent />
@@ -33,7 +33,7 @@ const About = () => {
           <img src={profilePic} className="rounded-full w-[39rem] " />
         </div>
 
-        <h1 className="mt-9 orange-text-gradient text-[1.6rem] font-extrabold">
+        <h1 className="mt-9  text-[1.6rem] font-extrabold orange-text-gradient">
           Explore Recent Projects&apos; or
           <br /> Submit a Contact Form to get in touch.
         </h1>
