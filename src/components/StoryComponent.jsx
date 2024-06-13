@@ -8,9 +8,9 @@ export default function StoryComponent() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentIndex((currentIndex) => (currentIndex + 1) % textBlocks.length)
-    }, 2000) // Changes text every 8000 ms (8 seconds)
+    }, 100)
 
-    return () => clearInterval(intervalId) // Cleanup interval on component unmount
+    return () => clearInterval(intervalId)
   }, [])
   return (
     <div className="space-y-4">
