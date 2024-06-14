@@ -26,11 +26,11 @@ const About = () => {
           <StoryComponent />
         </span>
 
-        <div className="rounded-full p-3 violet-gradient object-contain flex justify-center">
+        <div className="rounded-full p-3 violet-gradient object-contain flex justify-center items-center m-auto w-[25rem]">
           <img src={profilePic} className="rounded-full w-[39rem] " />
         </div>
 
-        <h1 className="mt-9  text-[1.6rem] font-extrabold orange-text-gradient">
+        <h1 className="m-auto p-[2rem] xs:p-[5rem]  text-[1.6rem] font-extrabold orange-text-gradient">
           Explore Recent Projects&apos; or
           <br /> Submit a Contact Form to get in touch.
         </h1>

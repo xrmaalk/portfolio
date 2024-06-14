@@ -18,7 +18,7 @@ export default function StoryComponent() {
         multiTextLoop={true}
         multiText={textBlocks}
         multiTextDelay={2000}
-        typeSpeed={35}
+        typeSpeed={100}
       />
 
       <br />

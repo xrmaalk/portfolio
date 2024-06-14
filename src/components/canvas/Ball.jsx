@@ -18,12 +18,7 @@ const Ball = (props) => {
       <directionalLight position={[0, 0, 0.5]} />
       <mesh castShadow receiveShadow scale={2.75}>
         <icosahedronGeometry args={[1, 1]} />
-        <meshStandardMaterial
-          color={"#45B440"}
-          polygonOffset
-          polygonOffsetFactor={-10}
-          flatShading
-        />
+        <meshStandardMaterial color={"#45B440"} />
         <Decal
           map={decal}
           position={[0, 0, 1]}
