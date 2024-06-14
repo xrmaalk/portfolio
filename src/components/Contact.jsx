@@ -28,7 +28,7 @@ const Contact = () => {
         "service_bsdvhkq",
         "template_5axkpwt",
         {
-          from_name: from.name,
+          from_name: form.name,
           to_name: "Maalkum",
           from_email: form.email,
           to_email: "xinra.inc@gmail.com",
