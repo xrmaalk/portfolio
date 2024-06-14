@@ -71,39 +71,45 @@ const Contact = () => {
           ref={formRef}
           onSubmit={handleSubmit}
           className="mt-12 flex flex-col gap-8">
-          <label className="flex flex-col" />
-          <span className="text-white font-medium mb-4">Name:</span>
-          <input
-            type="text"
-            name="name"
-            value={form.name}
-            onChange={handleChange}
-            placeholder="What's your name?"
-            className="bg-tertiary py-4 px-6 placeholer:text-secondary text-white rounded-lg outlined-none border-none font-medium"
-            autoComplete="on"
-          />
-          <label className="flex flex-col" />
-          <span className="text-white font-medium mb-4">Email:</span>
-          <input
-            type="email"
-            name="email"
-            value={form.email}
-            onChange={handleChange}
-            placeholder="What's your email?"
-            className="bg-tertiary py-4 px-6 placeholer:text-secondary text-white rounded-lg outlined-none border-none font-medium"
-            autoComplete="on"
-          />
-          <label className="flex flex-col" />
-          <span className="text-white font-medium mb-4">Message:</span>
-          <textarea
-            rows={9}
-            name="message"
-            value={form.message}
-            onChange={handleChange}
-            placeholder="What brought you here today?"
-            className="bg-tertiary py-4 px-6 placeholer:text-secondary text-white rounded-lg outlined-none border-none font-medium"
-            autoComplete="off"
-          />
+          <label id="Name" className="flex flex-col">
+            <span className="text-white font-medium mb-4">Name:</span>
+            <input
+              type="text"
+              name="name"
+              value={form.name}
+              onChange={handleChange}
+              placeholder="What's your name?"
+              className="bg-tertiary py-4 px-6 placeholer:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              autoComplete="on"
+              id="Name"
+            />
+          </label>
+          <label id="Email" className="flex flex-col">
+            <span className="text-white font-medium mb-4">Email:</span>
+            <input
+              type="email"
+              name="email"
+              value={form.email}
+              onChange={handleChange}
+              placeholder="What's your email?"
+              className="bg-tertiary py-4 px-6 placeholer:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              autoComplete="on"
+              id="Email"
+            />
+          </label>
+          <label id="Message" className="flex flex-col">
+            <span className="text-white font-medium mb-4">Message:</span>
+            <textarea
+              rows={9}
+              name="message"
+              value={form.message}
+              onChange={handleChange}
+              placeholder="What brought you here today?"
+              className="bg-tertiary py-4 px-6 placeholer:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              autoComplete="off"
+              id="Message"
+            />
+          </label>
           <button
             type="submit"
             className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary">
