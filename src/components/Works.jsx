@@ -19,12 +19,12 @@ const Works = () => {
       </motion.div>
       <div className="w-full flex">
         <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-[2rem] max-w-4xl leading-8">
+          variants={fadeIn("", "", 0.5, 1)}
+          className=" text-[2rem] max-w-3xl leading-[2.5rem] ">
           <ProjectStoryComponent />
         </motion.p>
       </div>
-      <div className="mt-20 flex flex-wrap gap-10 ">
+      <div className="mt-2 flex flex-wrap gap-10 ">
         {projects.map((project, index) => (
           <CompletedProjectCard
             key={`project-${index}`}

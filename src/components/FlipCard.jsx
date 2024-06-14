@@ -12,7 +12,7 @@ const FlipCard = () => {
   }
   return (
     <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-      <div className="frontCard mt-20 flex flex-wrap gap-10 justify-evenly px-5 text-white">
+      <div className="frontCard mt-20 flex flex-wrap gap-10 justify-evenly px-5 text-white cursor-pointer">
         {services.map((service, index) => (
           <ServiceCard
             key={service.title}
@@ -23,7 +23,7 @@ const FlipCard = () => {
         ))}
       </div>
 
-      <div className="backCard mt-20 flex-wrap gap-10 flex justify-evenly px-5 text-white">
+      <div className="backCard mt-20 flex-wrap gap-10 flex justify-evenly px-5 text-amber-400 cursor-pointer">
         {projects.map((project, index) => (
           <ProjectCard
             key={project.name}

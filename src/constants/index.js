@@ -93,51 +93,24 @@ const projects = [
     image: studymateProject,
     source_code_link: "https://maaltech.pro",
   },
+  {
+    name: "MYQARLI.com",
+    description: "A product marketing website.",
+    icon: qarliProject,
+    tags: [
+      {
+        name: "wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: qarliProject,
+    source_code_link: "https://myqarli.com",
+  },
 
-  {
-    name: "EH - Traveller",
-    description:
-      "A itenerary web application which allows travellers to immmerse in Calgary's, providing recommendations to cultrual attractions and historic sites ",
-    icon: ehTraveller,
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "expressjs",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/xrmaalk/eh_traveller",
-  },
-  {
-    name: "Pendolu Inc",
-    description:
-      "React native application for Humanitarian Aid Worker to use to manage stress levels and mental health",
-    icon: pendoluLogo,
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/xrmaalk/pendolu",
-  },
   {
     name: "AI Promptopia",
     description:
@@ -173,19 +146,7 @@ const projects = [
     image: organicEmperorLanding,
     source_code_link: "https://organicemperor.com",
   },
-  {
-    name: "MYQARLI.com",
-    description: "A product marketing website.",
-    icon: qarliProject,
-    tags: [
-      {
-        name: "wordpress",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: qarliProject,
-    source_code_link: "https://myqarli.com",
-  },
+
   {
     name: "QARLI.ca",
     description: "Product BLOG and FAQ website for SEO.",
@@ -194,6 +155,10 @@ const projects = [
       {
         name: "wordpress",
         color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
       },
     ],
     image: qarliBlog,
@@ -209,9 +174,57 @@ const projects = [
         name: "wordpress",
         color: "blue-text-gradient",
       },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
     ],
     image: spotlessDuct,
     source_code_link: "https://spotlessandductcleaningservices.ca",
+  },
+  {
+    name: "EH - Traveller",
+    description:
+      "An itenerary web application immmerse  in Calgary's cultrual attractions and historic sites ",
+    icon: ehTraveller,
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/xrmaalk/eh_traveller",
+  },
+  {
+    name: "Pendolu Inc",
+    description:
+      "React native application for Humanitarian Aid Worker to use to manage stress levels and mental health",
+    icon: pendoluLogo,
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expo",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nativewind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/xrmaalk/pendolu",
   },
 ]
 
