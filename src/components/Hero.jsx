@@ -24,7 +24,7 @@ const Hero = () => {
             visuals, unique user experiences, web and native applications.
           </p>
         </div>
-        <div className="">
+        <div>
           <img
             src={maaltechGuru}
             alt="hero image"

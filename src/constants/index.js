@@ -34,6 +34,7 @@ import {
   spotlessDuct,
   qarliBlog,
   noNameYetPage,
+  python,
 } from "../assets"
 
 export const navLinks = [
@@ -44,6 +45,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "tech",
+    title: "Tech",
   },
   {
     id: "contact",
@@ -250,8 +255,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "PYTHON",
+    icon: python,
   },
   {
     name: "Tailwind CSS",

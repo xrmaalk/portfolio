@@ -42,8 +42,10 @@ import jobit from "./jobit.png"
 import tripguide from "./tripguide.png"
 import spotlessDuct from "./spotlessductProjectLanding.jpg"
 import maaltechGuru from "./maaltech_guru.jpg"
+import python from "./python.png"
 
 export {
+  python,
   maaltechGuru,
   noNameYetPage,
   qarliBlog,

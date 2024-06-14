@@ -19,7 +19,7 @@ export default function ProjectStoryComponent() {
         multiTextLoop={true}
         multiText={projectIntro}
         multiTextDelay={2000}
-        typeSpeed={35}
+        typeSpeed={200}
       />
 
       <br />

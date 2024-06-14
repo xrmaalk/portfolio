@@ -18,7 +18,7 @@ const About = () => {
           <span className="green-text-gradient">Maalkum Frater</span>
         </h2>
       </motion.div>
-      <motion.p
+      <motion.div
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4
          text-[30px] max-w-4xl leading-[30px] flex-1 items-center justify-center ">
@@ -35,7 +35,7 @@ const About = () => {
           <br /> Submit a Contact Form to get in touch.
         </h1>
         <FlipCard />
-      </motion.p>
+      </motion.div>
     </>
   )
 }

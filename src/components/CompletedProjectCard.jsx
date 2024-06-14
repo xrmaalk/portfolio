@@ -1,8 +1,8 @@
 import { Tilt } from "react-tilt"
 import { motion } from "framer-motion"
 import { fadeIn } from "../utils/motion"
-import { projects } from "../constants"
-import { github, turteeSeated } from "../assets"
+
+import { turteeSeated } from "../assets"
 
 const CompletedProjectCard = ({
   index,
