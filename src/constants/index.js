@@ -91,7 +91,7 @@ const projects = [
       },
     ],
     image: studymateProject,
-    source_code_link: "https://maaltech.pro",
+    source_code_link: "https://xinra.space",
   },
   {
     name: "MYQARLI.com",
