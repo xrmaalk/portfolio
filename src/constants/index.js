@@ -23,6 +23,17 @@ import {
   jobit,
   tripguide,
   threejs,
+  studymateProjectIcon,
+  turteeSeated,
+  ehTraveller,
+  pendoluLogo,
+  studymateProject,
+  organicEmperorLogo,
+  organicEmperorLanding,
+  qarliProject,
+  spotlessDuct,
+  qarliBlog,
+  noNameYetPage,
 } from "../assets"
 
 export const navLinks = [
@@ -64,7 +75,7 @@ const projects = [
     name: "STUDYMATE",
     description:
       "Web-based applicantion for users  to learn and practice web development concepts.",
-    icon: web,
+    icon: turteeSeated,
     tags: [
       {
         name: "js",
@@ -79,7 +90,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: studymateProject,
     source_code_link: "https://maaltech.pro",
   },
 
@@ -87,7 +98,7 @@ const projects = [
     name: "EH - Traveller",
     description:
       "A itenerary web application which allows travellers to immmerse in Calgary's, providing recommendations to cultrual attractions and historic sites ",
-    icon: web,
+    icon: ehTraveller,
     tags: [
       {
         name: "react",
@@ -109,7 +120,7 @@ const projects = [
     name: "Pendolu Inc",
     description:
       "React native application for Humanitarian Aid Worker to use to manage stress levels and mental health",
-    icon: web,
+    icon: pendoluLogo,
     tags: [
       {
         name: "react",
@@ -146,33 +157,33 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: noNameYetPage,
     source_code_link: "https://github.com/xrmaalk/ai_promptopia",
   },
   {
     name: "OrganicEmperor.com",
     description: "An Ecommerce platform for unisex beauty cosmetics.",
-    icon: web,
+    icon: organicEmperorLogo,
     tags: [
       {
         name: "wordpress",
         color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
+    image: organicEmperorLanding,
     source_code_link: "https://organicemperor.com",
   },
   {
     name: "MYQARLI.com",
     description: "A product marketing website.",
-    icon: web,
+    icon: qarliProject,
     tags: [
       {
         name: "wordpress",
         color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
+    image: qarliProject,
     source_code_link: "https://myqarli.com",
   },
   {
@@ -185,7 +196,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
+    image: qarliBlog,
     source_code_link: "https://qarli.ca",
   },
   {
@@ -199,7 +210,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
+    image: spotlessDuct,
     source_code_link: "https://spotlessandductcleaningservices.ca",
   },
 ]

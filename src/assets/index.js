@@ -23,17 +23,34 @@ import tailwind from "./tech/tailwind.png"
 import typescript from "./tech/typescript.png"
 import threejs from "./tech/threejs.svg"
 
+import turteeSeated from "./turteeSeated.png"
+import studymateProject from "./studymateProject.jpg"
+import studymateProjectIcon from "./studymateProjectIcon.jpg"
 import xrmedia from "./company/xrmedia.png"
 import inceptionU from "./company/inceptionU.png"
 import pendolu from "./company/pendolu.png"
 import maaltech from "./company/logo.png"
-
+import ehTraveller from "./Eh-Travler-Logo.png"
+import pendoluLogo from "./pendolu-logo.png"
+import qarliBlog from "./qarliBlogLanding.jpg"
+import organicEmperorLogo from "./organicEmperorLogo.jpg"
+import organicEmperorLanding from "./organicEmperorLanding.jpg"
+import noNameYetPage from "./nonameyetPage.jpg"
+import qarliProject from "./QARLILanding.jpg"
 import carrent from "./carrent.png"
 import jobit from "./jobit.png"
 import tripguide from "./tripguide.png"
+import spotlessDuct from "./spotlessductProjectLanding.jpg"
 
 export {
+  noNameYetPage,
+  qarliBlog,
+  spotlessDuct,
+  qarliProject,
+  organicEmperorLanding,
+  organicEmperorLogo,
   profilePic,
+  pendoluLogo,
   logo,
   backend,
   creator,
@@ -55,10 +72,14 @@ export {
   tailwind,
   typescript,
   threejs,
+  turteeSeated,
+  studymateProject,
+  studymateProjectIcon,
   xrmedia,
   inceptionU,
   pendolu,
   maaltech,
+  ehTraveller,
   carrent,
   jobit,
   tripguide,
