@@ -1,20 +1,13 @@
-import React, { useState } from "react"
-import ReactCardFlip from "react-card-flip"
 import { Tilt } from "react-tilt"
 import { motion } from "framer-motion"
 import { fadeIn } from "../utils/motion"
-import { projects } from "../constants"
-import { FlipCard } from "./FlipCard"
 
 const ProjectCard = ({ index, name, icon, onClick }) => {
-  console.log("1....Check Prop Value...name:...", name)
-  console.log("2....Check Prop Value...index:...", index)
-  console.log("3....Check Prop Value...icon:...", icon)
   return (
     <Tilt className="xs:w-[250px] w-full ">
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-        className="frontCard flex justify-center items w-[auto] green-pink-gradient p-[9px] rounded-[25px] shadow-card">
+        className="frontCard flex justify-center  w-[auto] green-pink-gradient p-[9px] rounded-[25px] shadow-card">
         <div
           options={{
             max: 45,

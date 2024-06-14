@@ -61,9 +61,9 @@ const services = [
 
 const projects = [
   {
-    name: "Studymate",
+    name: "STUDYMATE",
     description:
-      "Web-based platform that allows users learn and practice web development concepts.",
+      "Web-based applicantion for users  to learn and practice web development concepts.",
     icon: web,
     tags: [
       {
@@ -81,6 +81,51 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://maaltech.pro",
+  },
+
+  {
+    name: "EH - Traveller",
+    description:
+      "A itenerary web application which allows travellers to immmerse in Calgary's, providing recommendations to cultrual attractions and historic sites ",
+    icon: web,
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/xrmaalk/eh_traveller",
+  },
+  {
+    name: "Pendolu Inc",
+    description:
+      "React native application for Humanitarian Aid Worker to use to manage stress levels and mental health",
+    icon: web,
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/xrmaalk/pendolu",
   },
   {
     name: "AI Promptopia",
@@ -105,28 +150,6 @@ const projects = [
     source_code_link: "https://github.com/xrmaalk/ai_promptopia",
   },
   {
-    name: "EH - Traveller",
-    description:
-      "A itenerary web application which allows travellers to immmerse in Calgary's, providing recommendations to cultrual attractions and historic sites ",
-    icon: web,
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "expressjs",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/xrmaalk/eh_traveller",
-  },
-  {
     name: "OrganicEmperor.com",
     description: "An Ecommerce platform for unisex beauty cosmetics.",
     icon: web,
@@ -138,6 +161,46 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://organicemperor.com",
+  },
+  {
+    name: "MYQARLI.com",
+    description: "A product marketing website.",
+    icon: web,
+    tags: [
+      {
+        name: "wordpress",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://myqarli.com",
+  },
+  {
+    name: "QARLI.ca",
+    description: "Product BLOG and FAQ website for SEO.",
+    icon: web,
+    tags: [
+      {
+        name: "wordpress",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://qarli.ca",
+  },
+  {
+    name: "Spotless&Duct",
+    description:
+      "Cleaning and Landscaping Service website for customer bookings.",
+    icon: web,
+    tags: [
+      {
+        name: "wordpress",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://spotlessandductcleaningservices.ca",
   },
 ]
 
@@ -283,7 +346,7 @@ const projectIntro = [
   "You've reached the heart of my portfolio.",
   "Here you can discover recent projects I have completed.",
   "The following projects shall demonstrate the works I have contributed to over the years.",
-  "Be sure to return quarterly as I am constantly adding new skills and wrapping up new porjects!",
+  "Be sure to return quarterly as I am constantly adding new skills through wrapping up new and exciting projects!",
 ]
 
 const testimonials = [
