@@ -24,7 +24,7 @@ const Works = () => {
           <ProjectStoryComponent />
         </motion.p>
       </div>
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10 ">
         {projects.map((project, index) => (
           <CompletedProjectCard
             key={`project-${index}`}

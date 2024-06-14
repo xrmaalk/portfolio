@@ -2,7 +2,7 @@ import { Tilt } from "react-tilt"
 import { motion } from "framer-motion"
 import { fadeIn } from "../utils/motion"
 import { projects } from "../constants"
-import { FlipCard } from "./FlipCard"
+import { github, turteeSeated } from "../assets"
 
 const CompletedProjectCard = ({
   index,
@@ -36,13 +36,21 @@ const CompletedProjectCard = ({
             />
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover p-5">
               <div
-                className="black-gradient w-10 h-10 rounded-full"
-                onClick={() => window.open(source_code_link, "_blank")}></div>
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                onClick={() => window.open(source_code_link, "_blank")}>
+                <img src={turteeSeated} alt="demo" className="w-1/2 h-1/2" />
+              </div>
             </div>
-
-            <h3 className="text-white text-[20px] font-bold text-center">
-              {name}
-            </h3>
+            <div className="mt-5">
+              <h3 className="text-white text-2xl font-bold text-center">
+                {name}
+              </h3>
+            </div>
+            <div>
+              <h4 className="blue-text-gradient text-1xl font-bold text-center">
+                {description}
+              </h4>
+            </div>
           </div>
         </div>
       </motion.div>
