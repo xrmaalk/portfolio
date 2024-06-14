@@ -41,8 +41,10 @@ import carrent from "./carrent.png"
 import jobit from "./jobit.png"
 import tripguide from "./tripguide.png"
 import spotlessDuct from "./spotlessductProjectLanding.jpg"
+import maaltechGuru from "./maaltech_guru.jpg"
 
 export {
+  maaltechGuru,
   noNameYetPage,
   qarliBlog,
   spotlessDuct,

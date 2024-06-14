@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 import { styles } from "../styles"
-import { ComputersCanvas } from "./canvas"
+
+import { maaltechGuru } from "../assets"
 
 const Hero = () => {
   return (
@@ -11,7 +12,7 @@ const Hero = () => {
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
           <div className="w-1 h-40 sm:h-80  violet-gradient" />
         </div>
-        <div>
+        <div className="relative">
           <h1 className={`${styles.heroHeadText} text-[#45B440]`}>
             Greetings and Welcome,
             <br />
@@ -23,11 +24,16 @@ const Hero = () => {
             visuals, unique user experiences, web and native applications.
           </p>
         </div>
+        <div className="">
+          <img
+            src={maaltechGuru}
+            alt="hero image"
+            className="flex items-stretch m-auto object-cover rounded-full"
+          />
+        </div>
       </div>
-      <div className="xs:hidden">
-        <ComputersCanvas />
-      </div>
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+
+      <div className="absolute xs:bottom-[10rem] bottom-50 w-full flex justify-center items-center">
         <a href="#about">
           <div className="flex justify-center items-start p-2 w-[35px] h-[64px] rounded-3xl border-4 border-secondary ">
             <motion.div
