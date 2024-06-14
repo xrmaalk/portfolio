@@ -80,6 +80,7 @@ const Contact = () => {
             onChange={handleChange}
             placeholder="What's your name?"
             className="bg-tertiary py-4 px-6 placeholer:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+            autoComplete="on"
           />
           <label className="flex flex-col" />
           <span className="text-white font-medium mb-4">Email:</span>
@@ -90,6 +91,7 @@ const Contact = () => {
             onChange={handleChange}
             placeholder="What's your email?"
             className="bg-tertiary py-4 px-6 placeholer:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+            autoComplete="on"
           />
           <label className="flex flex-col" />
           <span className="text-white font-medium mb-4">Message:</span>
@@ -100,6 +102,7 @@ const Contact = () => {
             onChange={handleChange}
             placeholder="What brought you here today?"
             className="bg-tertiary py-4 px-6 placeholer:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+            autoComplete="off"
           />
           <button
             type="submit"
