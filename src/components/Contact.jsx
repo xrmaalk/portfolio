@@ -16,8 +16,39 @@ const Contact = () => {
     message: "",
   })
 
-  const handleChange = (e) => {}
-  const handleSubmit = (e) => {}
+  const handleChange = (e) => {
+    const { name, value } = e.target
+    setForm({ ...form, [name]: value })
+  }
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    setLoader(true)
+    emailjs
+      .send(
+        "service_bsdvhkq",
+        "template_5axkpwt",
+        {
+          from_name: from.name,
+          to_name: "Maalkum",
+          from_email: form.email,
+          to_email: "xinra.inc@gmail.com",
+          message: form.message,
+        },
+        "ZU-WWPTrXKvjYTRRG"
+      )
+      .then(() => {
+        setLoader(false)
+        alert(
+          "Message Sent. Thank You. I will get back to you at my earliest convenience."
+        )
+
+        setForm({
+          name: "",
+          email: "",
+          message: "",
+        })
+      })
+  }
 
   return (
     <div className="xl:mt-12  xl:flew-row flex-col-reverse flex gap-10 overflow-hidden">
@@ -48,7 +79,7 @@ const Contact = () => {
             name="email"
             value={form.email}
             onChange={handleChange}
-            placeholder="What's your email"
+            placeholder="What's your email?"
             className="bg-tertiary py-4 px-6 placeholer:text-secondary text-white rounded-lg outlined-none border-none font-medium"
           />
           <label className="flex flex-col" />

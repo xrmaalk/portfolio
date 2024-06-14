@@ -4,7 +4,6 @@ import {
   StarsCanvas,
   Contact,
   Experience,
-  Feedbacks,
   Hero,
   NavBar,
   Tech,
@@ -23,7 +22,7 @@ export default function App() {
         <Experience />
         <Tech />
         <Works />
-        {/* <Feedbacks /> */}
+
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />

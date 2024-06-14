@@ -19,7 +19,8 @@ const Hero = () => {
             <br />
             <span className="blue-text-gradient">I am Maalkum</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 green-text-gradient`}>
+          <p
+            className={`${styles.heroSubText} mt-2 green-text-gradient mb-[3rem]`}>
             an intermediate Software Developer. <br />I develop 3D models,
             visuals, unique user experiences, web and native applications.
           </p>
