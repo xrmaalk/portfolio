@@ -36,18 +36,27 @@ const Contact = () => {
         },
         "ZU-WWPTrXKvjYTRRG"
       )
-      .then(() => {
-        setLoader(false)
-        alert(
-          "Message Sent. Thank You. I will get back to you at my earliest convenience."
-        )
+      .then(
+        () => {
+          setLoader(false)
+          alert(
+            "Message Sent. Thank You. I will get back to you at my earliest convenience."
+          )
 
-        setForm({
-          name: "",
-          email: "",
-          message: "",
-        })
-      })
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          })
+        },
+        (error) => {
+          setLoader(false)
+          console.log("email...", error)
+          alert(
+            "something went terribly wrong, Please Try Again. Contact Support id the problem presist."
+          )
+        }
+      )
   }
 
   return (
