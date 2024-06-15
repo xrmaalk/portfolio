@@ -14,7 +14,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <div className="relative z-0 br-primary">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat w-[100vw] bg-center overflow-x-hidden">
           <NavBar />
           <Hero />
         </div>
