@@ -5,7 +5,7 @@ import { maaltechGuru } from "../assets"
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto xs:mt-[1.5rem] ">
+    <section className="relative w-full h-screen md:mt-[7rem] my-auto mx-auto xs:mt-[1.5rem] xs:w-full">
       <div
         className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
@@ -33,7 +33,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute xs:bottom-[10rem] bottom-50 w-full flex justify-center items-center">
+      <div className="absolute md:bottom-[8rem] xs:bottom-[10rem] bottom-50 w-full flex justify-center items-center">
         <a href="#about">
           <div className="flex justify-center items-start p-2 w-[35px] h-[64px] rounded-3xl border-4 border-secondary ">
             <motion.div

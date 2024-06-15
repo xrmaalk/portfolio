@@ -26,7 +26,7 @@ const About = () => {
           <StoryComponent />
         </span>
 
-        <div className="rounded-full p-3 violet-gradient object-contain flex justify-center items-center m-auto w-[25rem]">
+        <div className="rounded-full p-3 violet-gradient object-contain flex justify-center items-center m-auto xs:w-[25rem]">
           <img src={profilePic} className="rounded-full w-[39rem] " />
         </div>
 
