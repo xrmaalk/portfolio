@@ -35,6 +35,9 @@ const About = () => {
           <br /> Submit a Contact Form to get in touch.
         </h1>
         <FlipCard />
+        <h2 className="m-auto p-[2rem] xs:p-[5rem]  text-[1.6rem] font-extrabold orange-text-gradient">
+          Click Cards to See Reverse side.
+        </h2>
       </motion.div>
     </>
   )

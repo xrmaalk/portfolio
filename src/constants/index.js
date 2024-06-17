@@ -241,54 +241,72 @@ const technologies = [
   {
     name: "HTML 5",
     icon: html,
+    alt: "HTML5",
   },
   {
     name: "CSS 3",
     icon: css,
+    alt: "CSS3",
   },
   {
     name: "JavaScript",
     icon: javascript,
+    alt: "JavaScript",
   },
   {
     name: "TypeScript",
     icon: typescript,
+    alt: "TypeScript",
   },
   {
     name: "React JS",
     icon: reactjs,
+    alt: "ReactJS",
   },
   {
     name: "PYTHON",
     icon: python,
+    alt: "Python3",
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
+    alt: "Tailwind CSS",
   },
   {
     name: "Node JS",
     icon: nodejs,
+    alt: "NodeJS",
   },
   {
     name: "MongoDB",
     icon: mongodb,
+    alt: "MongoDB",
   },
   {
     name: "Three JS",
     icon: threejs,
+    alt: "ThreeJS",
   },
   {
     name: "git",
     icon: git,
+    alt: "github",
   },
   {
     name: "figma",
     icon: figma,
+    alt: "Figma",
   },
   {
     name: "docker",
     icon: docker,
+    alt: "HTML5",
+  },
+  {
+    name: "wordpress",
+    icon: python,
+    alt: "wordpress",
   },
 ]
 const experiences = [
