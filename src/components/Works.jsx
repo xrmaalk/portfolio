@@ -1,6 +1,7 @@
 import { Tilt } from "react-tilt"
 import { motion } from "framer-motion"
 import { styles } from "../styles"
+import { useMediaQuery } from "react-responsive"
 
 import { projects } from "../constants"
 
@@ -13,18 +14,18 @@ import { CompletedProjectCard } from "./CompletedProjectCard"
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div>
         <p className={styles.sectionSubText}>My Project Contributions</p>
         <h2 className={styles.sectionHeadText}>Completed Projects</h2>
-      </motion.div>
-      <div className="w-full flex">
-        <motion.div
-          variants={fadeIn("", "", 0.5, 1)}
-          className=" text-[2rem] max-w-3xl leading-[2.5rem] ">
-          <ProjectStoryComponent />
-        </motion.div>
       </div>
-      <div className="mt-2 flex flex-wrap gap-10 ">
+      <div className="w-full flex flex-row px-[2rem] ">
+        <div
+          variants={fadeIn(0, 0, 0.5, 1)}
+          className="text-[2rem] max-w-3xl leading-[2.5rem]  ">
+          <ProjectStoryComponent />
+        </div>
+      </div>
+      <div className="mt-[0] flex flex-wrap gap-10 px-[1rem] ml-[2rem]">
         {projects.map((project, index) => (
           <CompletedProjectCard
             key={`project-${index}`}

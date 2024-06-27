@@ -15,8 +15,8 @@ const ProjectCard = ({ index, name, icon, onClick }) => {
             speed: 450,
           }}
           onClick={onClick}
-          className="bg-tertiary rounded-[20px], py-5 min-h-[280px] flex flex-col items-center justify-around w-[auto] rounded-2xl xs:w-[25%]">
-          <img src={icon} className="w-16 h-16 object-contain " />
+          className="bg-tertiary rounded-[20px], py-5 min-h-[280px] flex flex-col items-center justify-around w-[auto] rounded-2xl xs:w-[100%]">
+          <img src={icon} className="w-25 h-25 object-contain " />
 
           <h3 className="text-white text-[20px] font-bold text-center">
             {name}

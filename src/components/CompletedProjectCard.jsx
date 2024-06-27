@@ -16,10 +16,8 @@ const CompletedProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <Tilt className="xs:w-[250px] w-full h-full ">
-      <motion.div
-        variants={fadeIn("up", "spring", 0.5 * index, 0.75)}
-        className="flex justify-center items-center  rounded-[25px] sm:w-[300px] shadow-card w-[auto] h-full gap-6  ">
+    <>
+      <div className="flex justify-center items-center  rounded-[25px] sm:w-[300px] shadow-card w-[auto] h-full gap-6  ">
         <div
           options={{
             max: 45,
@@ -61,8 +59,8 @@ const CompletedProjectCard = ({
             ))}
           </div>
         </div>
-      </motion.div>
-    </Tilt>
+      </div>
+    </>
   )
 }
 
