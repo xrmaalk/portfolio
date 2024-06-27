@@ -13,7 +13,7 @@ const Tech = () => {
             <BallCanvas
               icon={technology.icon}
               alt={technology.alt}
-              style={{ width: "auto", flexDirection: "row" }}
+              style={{ width: 2, flexDirection: "row" }}
             />
           </div>
         ))}
