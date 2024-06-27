@@ -7,10 +7,14 @@ const Tech = () => {
   return (
     <>
       <h1 className={styles.sectionHeadText}>Tech Stack</h1>
-      <div className="flex flex-row flex-wrap justify-center gap-10">
+      <div className="max-xs:flex-row max-sm:flex-row md:flex lg:flex flex-wrap justify-center gap-2 object-contain">
         {technologies.map((technology) => (
-          <div key={technology.name} className="w-28 h-28">
-            <BallCanvas icon={technology.icon} alt={technology.alt} />
+          <div key={technology.name} className="w-[auto] h-[auto]">
+            <BallCanvas
+              icon={technology.icon}
+              alt={technology.alt}
+              style={{ width: "auto", flexDirection: "row" }}
+            />
           </div>
         ))}
       </div>

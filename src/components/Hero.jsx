@@ -5,9 +5,9 @@ import { maaltechGuru } from "../assets"
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen md:mt-[7rem] my-auto mx-auto xs:mt-[1.5rem] xs:w-full md:w-[full]">
+    <section className="relative w-full h-screen  my-auto mx-auto xs:w-full md:w-[full] md:mt-[10rem] xs:mt-[5rem] overflow-hidden">
       <div
-        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
+        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5 mt-[5rem]`}>
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
           <div className="w-1 h-40 sm:h-80  violet-gradient" />
@@ -33,7 +33,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute md:bottom-[8rem] xs:bottom-[10rem] md:ml-[5rem] bottom-50 w-full flex justify-center items-center">
+      <div className="absolute md:bottom-[15rem] xs:bottom-[10rem] md:ml-[5rem] bottom-50 w-full flex justify-center items-center">
         <a href="#about">
           <div className="flex justify-center items-start p-2 w-[35px] h-[64px] rounded-3xl border-4 border-secondary ">
             <motion.div
