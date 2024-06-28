@@ -35,6 +35,7 @@ import {
   qarliBlog,
   noNameYetPage,
   python,
+  wordpress,
 } from "../assets"
 
 export const navLinks = [
@@ -305,7 +306,7 @@ const technologies = [
   },
   {
     name: "wordpress",
-    icon: python,
+    icon: wordpress,
     alt: "wordpress",
   },
 ]

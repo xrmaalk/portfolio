@@ -43,6 +43,7 @@ import tripguide from "./tripguide.png"
 import spotlessDuct from "./spotlessductProjectLanding.jpg"
 import maaltechGuru from "./maaltech_guru.jpg"
 import python from "./python.png"
+import wordpress from "./tech/wordpress.png"
 
 export {
   python,
@@ -87,4 +88,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  wordpress,
 }
