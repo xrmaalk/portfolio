@@ -1,0 +1,4 @@
+my-auto mx-auto xs:w-full md:w-[full] md:mt-[10rem] xs:mt-[5rem}
+my-auto mx-auto xs:w-full md:w-[full] md:mt-[10rem] xs:mt-[5rem]
+
+

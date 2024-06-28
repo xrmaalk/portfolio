@@ -17,7 +17,7 @@ const CompletedProjectCard = ({
 }) => {
   return (
     <>
-      <div className="flex justify-center items-center  rounded-[25px] sm:w-[300px] shadow-card w-[auto] h-full gap-6  ">
+      <div className="flex justify-center items-center  rounded-[25px] sm:w-[500px] xs:w-[5rem] shadow-card w-[auto] h-full gap-6  ">
         <div
           options={{
             max: 45,

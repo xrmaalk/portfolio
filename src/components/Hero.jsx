@@ -5,7 +5,7 @@ import { maaltechGuru } from "../assets"
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen  my-auto mx-auto xs:w-full md:w-[full] md:mt-[10rem] xs:mt-[5rem] overflow-hidden">
+    <section className="relative w-screen h-screen   overflow-hidden">
       <div
         className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5 sm:mt-[5rem] xs:mt-0 `}>
         <div className="flex flex-col justify-center items-center mt-5 ">
