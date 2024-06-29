@@ -212,7 +212,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/xrmaalk/eh_traveller",
+    source_code_link: "https://github.com/xrmaalk/eh-traveller",
   },
   {
     name: "Pendolu Inc",
