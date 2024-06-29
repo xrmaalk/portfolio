@@ -10,6 +10,7 @@ const FlipCard = () => {
     e.preventDefault()
     setIsFlipped((preState) => !preState)
   }
+
   return (
     <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
       <div className="frontCard mt-20 flex flex-wrap gap-10 justify-evenly px-5 text-white cursor-pointer">
