@@ -16,7 +16,9 @@ const Works = () => {
     <>
       <div>
         <p className={styles.sectionSubText}>My Project Contributions</p>
-        <h2 className={styles.sectionHeadText}>Completed Projects</h2>
+        <motion.h2 variants={textVariant} className={styles.sectionHeadText}>
+          Completed Projects
+        </motion.h2>
       </div>
       <div className="w-full flex flex-row px-[2rem] ">
         <div
