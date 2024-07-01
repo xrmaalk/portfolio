@@ -8,8 +8,10 @@ import {
   NavBar,
   Tech,
   Works,
+  Footer,
 } from "./components"
 import "./index.css"
+
 export default function App() {
   return (
     <BrowserRouter>
@@ -27,6 +29,7 @@ export default function App() {
           <Contact />
           <StarsCanvas />
         </div>
+        <Footer />
       </div>
     </BrowserRouter>
   )
