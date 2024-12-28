@@ -170,7 +170,7 @@ const projects = [
   {
     name: "QARLI.ca",
     description: "Product BLOG and FAQ website for SEO.",
-    icon: web,
+    icon: maaltech,
     tags: [
       {
         name: "wordpress",
@@ -188,7 +188,7 @@ const projects = [
     name: "Spotless&Duct",
     description:
       "Cleaning and Landscaping Service website for customer bookings.",
-    icon: web,
+    icon: maaltech,
     tags: [
       {
         name: "wordpress",
