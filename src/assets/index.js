@@ -1,6 +1,6 @@
-import profilePic from "./profile_picture_basc.jpg"
+import profilePic from "./MKSourceCode avatar.png"
 
-import logo from "./logo.jpg"
+import logo from "./logo.png"
 import backend from "./backend.png"
 import creator from "./creator.png"
 import mobile from "./mobile.png"
@@ -45,7 +45,12 @@ import maaltechGuru from "./maaltech_guru.jpg"
 import python from "./python.png"
 import wordpress from "./tech/wordpress.png"
 
+import postgresql from "./tech/PostgreSQL.png"
+import vue from "./tech/vue.png"
+
 export {
+  vue,
+  postgresql,
   python,
   maaltechGuru,
   noNameYetPage,
