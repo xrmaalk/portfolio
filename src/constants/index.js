@@ -1,4 +1,5 @@
 import {
+  airbnbluxuryservies,
   mobile,
   backend,
   creator,
@@ -35,7 +36,12 @@ import {
   qarliBlog,
   noNameYetPage,
   python,
+  vue,
+  postgresql,
   wordpress,
+  godfirst,
+  pendoluSite,
+  django,
 } from "../assets"
 
 export const navLinks = [
@@ -85,7 +91,7 @@ const projects = [
     name: "STUDYMATE",
     description:
       "Web-based applicantion for users  to learn and practice web development concepts.",
-    icon: turteeSeated,
+    icon: studymateProjectIcon,
     tags: [
       {
         name: "js",
@@ -151,6 +157,10 @@ const projects = [
       {
         name: "wordpress",
         color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
       },
     ],
     image: organicEmperorLanding,
@@ -233,8 +243,48 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/xrmaalk/pendolu",
+    image: pendoluSite,
+    source_code_link: "https://pendolu.com/",
+  },
+  {
+    name: "Airbnb Luxury Rental Services by Chanel D.",
+    description:
+      "Specialize in providing unparalleled Airbnb management services with a focus on luxury and sophistication. ",
+    icon: maaltech,
+    tags: [
+      {
+        name: "wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+    ],
+    image: airbnbluxuryservies,
+    source_code_link: "https://AirbnbLuxuryRentalsByChanel.com",
+  },
+  {
+    name: "Godfirst.ca",
+    description:
+      "At Godfirst, we understand faith without work is unsustainable. The road to righteousness is filled with tough terrains that require us to be fit, sharp, sober-minded and empowered by Christ, through our spirit, mind and body. ",
+    icon: maaltech,
+    tags: [
+      {
+        name: "htlm",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: godfirst,
+    source_code_link: "https://godfirst.ca",
   },
 ]
 
@@ -268,6 +318,21 @@ const technologies = [
     name: "PYTHON",
     icon: python,
     alt: "Python3",
+  },
+  {
+    name: "Vue",
+    icon: vue,
+    alt: "Vue",
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgresql,
+    alt: "PostgerSQL",
+  },
+  {
+    name: "Django",
+    icon: django,
+    alt: "Django",
   },
   {
     name: "Tailwind CSS",
@@ -351,8 +416,8 @@ const experiences = [
   },
 
   {
-    title: "Software Developer",
-    company_name: "MAALTECH - Freelance",
+    title: "Software Consultant",
+    company_name: "MAALTECH ",
     icon: maaltech,
     iconBg: "#000",
     date: "March 2024 - Present",

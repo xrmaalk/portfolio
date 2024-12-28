@@ -44,12 +44,19 @@ import spotlessDuct from "./spotlessductProjectLanding.jpg"
 import maaltechGuru from "./maaltech_guru.jpg"
 import python from "./python.png"
 import wordpress from "./tech/wordpress.png"
-
+import airbnbluxuryservies from "./AirbnbLuxuryRentalsByChanel.jpg"
+import godfirst from "./godFirst.jpg"
+import pendoluSite from "./pendolu.jpg"
 import postgresql from "./tech/PostgreSQL.png"
 import vue from "./tech/vue.png"
+import django from "./tech/django.png"
 
 export {
+  airbnbluxuryservies,
+  django,
+  godfirst,
   vue,
+  pendoluSite,
   postgresql,
   python,
   maaltechGuru,
