@@ -1,5 +1,7 @@
 # Portfolio ReadMe
 
+![Portfolio Preview](./src/assets/readmeImage.jpg)
+
 ## Greetings and Welcome
 
 ### Hi! I am Maalkum, an intermediate Software Developer.
@@ -48,16 +50,14 @@ Other:
 - CI/CD pipelines,
 - Docker
 
-![Portfolio Preview](./src/assets/readmeImage.jpg)
-
-Get in Touch
+## Get in Touch
 
 I’m always open to new opportunities and collaborations. Here’s how you can reach me:
 
 Email: xinra.inc@gmail.com
 
-LinkedIn: ![LinkedIn](https://www.linkedin.com/in/maalkum-frater-agentail)
+LinkedIn: [LinkedIn](https://www.linkedin.com/in/maalkum-frater-agentail)
 
-GitHub: ![GitHub](https://github.com/xrmaalk/)
+GitHub: [GitHub](https://github.com/xrmaalk/)
 
 Let’s create something amazing together!
