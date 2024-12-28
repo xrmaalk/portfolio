@@ -1,7 +1,9 @@
-import { BallCanvas } from "./canvas"
+// import { BallCanvas } from "./canvas" Remove ThreeJs resource intensity
 import { SectionWrapper } from "../hoc/SectionWrapper"
-import { technologies } from "../constants"
+
 import { styles } from "../styles"
+import TechIcons from "./TechIcons"
+import { technologies } from "../constants"
 
 const Tech = () => {
   return (
@@ -11,7 +13,7 @@ const Tech = () => {
       <div className="flex flex-row flex-wrap justify-center gap-5">
         {technologies.map((technology) => (
           <div key={technology.name} className="w-28">
-            <BallCanvas icon={technology.icon} alt={technology.alt} />
+            <TechIcons icon={technology.icon} alt={technology.alt} />
           </div>
         ))}
       </div>
